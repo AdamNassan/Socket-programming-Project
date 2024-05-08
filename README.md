@@ -1,5 +1,5 @@
 # Socket Programming Project
-## Part2: UDP client and server 
+## Part1: UDP client and server 
 This project involves implementing UDP client and server applications in Go, Python, Java, or C. The server listens on port 8855, and the client sends broadcast messages every 2 seconds. Each message contains the sender's name (First name Last name). The server displays the last received message from each client, listing them in the format:
 Server First name Last name:  
 &nbsp;&nbsp;&nbsp;&nbsp;1- received message from First name Last name at Time  
@@ -7,7 +7,7 @@ Server First name Last name:
 &nbsp;&nbsp;&nbsp;&nbsp;3- received message from First name Last name at Time  
 Where "First name Last name" represents the sender's first and last names, and "Time" indicates the last time a message was received from that sender. IP addresses are used to distinguish between different senders.  
 
-## Part3: Simple Web Server
+## Part2: Simple Web Server
 
 Using socket programming, implement a simple but complete web server in Go, Python, Java, or C that listens on port 9977. The user can type URLs in the browser like http://localhost:9977/ar or http://localhost:9977/en. The server should handle various requests as follows:
 
